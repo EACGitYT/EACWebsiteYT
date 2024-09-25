@@ -13,6 +13,12 @@ header{
   background-color: #3ff42f;
 }
 
+.header-nav a:hover{
+  border-color: #1f2937;
+  background: #1f2937;
+  color: #fff;
+}
+
 .header-nav{
   display:flex;
   justify-content: space-between;
