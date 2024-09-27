@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*, pre, p{
+  font-family: Roboto;
+}
+
+*{
+    transition: all 1s ease;
+}
+
+pre{
+    font-size: 20px;
+}
+
+header{
+    animation: header-anim 2s;
+    background-color: #3ff42f;
+  }
+  
+  .header-nav a:hover{
+    border-color: #1f2937;
+    background: #1f2937;
+    color: #fff;
+  }
+  
+  .header-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    color: #000;
+  }
+  
+  .header-nav a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header-menu{
+    display:flex;
+    gap: 5vw;
+    gap: 28px; 
+  }
+  
+  .header-menu a{
+    font-size: 24px;
+  }
+  
+  .image-logo{
+    display: flex;
+    gap: 10px;
+    object-fit: cover;
+  }
+  
+  .image-logo > img{
+    width: 24px;
+    object-fit: cover;
+  }
+  
+  .image-logo a{
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+.content-intro pre{
+    text-align: center;
+}
+
+.playlist-stumble-guys{
+    text-align: center;
+    padding: 100px 60px;
+    background-color: #9b6501;
+    font-family: Lilita One;
+}
+
+.stumble-guys-push-crown a:hover{
+    color: #f9a537;
+}
+
+.stumble-guys-tournaments a:hover{
+    color: #f9a537;
+}
+
+.stumble-guys-push-crown{
+    position: relative;
+    top: 0px;
+    left: -450px;
+}
+
+.stumble-guys-push-crown a{
+    display: flex !important;
+    flex-direction: column;
+    margin-left: 0px;
+    text-decoration: none;
+    color: #fecf39;
+}
+
+.stumble-guys-tournaments{
+    position: relative;
+    top: -428.5px;
+    left: 450px;
+}
+
+.stumble-guys-tournaments a{
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 0px;
+    text-decoration: none;
+    color: #fecf39;
+}
+
+.dv-games{
+    text-align: center;
+    background-color: #ae0000;
+}
+
+.grannies{
+    background-color: #4a4744;
+    color: #fff;
+}
+
+.granny{
+    position: relative;
+    left: 450px;
+}
+
+.granny-chapter-two{
+    position: relative;
+    top: -340px;
+    left: -450px;
+}
+
+.granny-3{
+    position: relative;
+    top: -280px;
+    left: 450px;
+}
+
+.the-twins{
+    position: relative;
+    top: -618px;
+    left: -450px;
+}
+
+.granny a, .granny-3 a{
+    display: flex !important;
+    flex-direction: column;
+    margin-left: 0px;
+    text-decoration: none;
+    color: #898884;
+}
+
+.granny-chapter-two a, .the-twins a{
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 0px;
+    text-decoration: none;
+    color: #898884;
+}
+
+
+.slendrina-the-cellar{
+    position: relative;
+    left: -400px;
+}
+
+.slendrina-the-school{
+    position: relative;
+    top: -180px;
+    left: -400px;
+}
+
+.slendrina-the-cellar-2{
+    position: relative;
+    top: -340px;
+    left: 400px;
+}
+
+.house-of-slendrina{
+    position: relative;
+    top: -520px;
+    left: 400px;
+}
+
+.slendrina-the-cellar a, .slendrina-the-school a{
+    display: flex !important;
+    flex-direction: column;
+    margin-left: -350px;
+    text-decoration: none;
+    color: #898884;
+}
+
+.slendrina-the-cellar-2 a, .house-of-slendrina a{
+    display: flex !important;
+    flex-direction: column;
+    margin-right: -350px;
+    text-decoration: none;
+    color: #898884;
+}
+
+.slendrina-the-forest{
+    position: relative;
+    top: -400px;
+}
+
+.slendrina-the-forest a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+    color: #898884;
+}
+
+.slendrina{
+    background-color: #1f2937;
+}
+
+.slendrina pre{
+    color: #fff;
+}
+
+.granny a:hover, .granny-chapter-two a:hover, .granny-3 a:hover,
+.the-twins a:hover, .slendrina-the-cellar a:hover,
+.slendrina-the-cellar-2 a:hover,
+.slendrina-the-school a:hover,
+.slendrina-the-forest a:hover,
+.house-of-slendrina a:hover .a-twelve a:hover,
+.togueznake a:hover, .call-of-duty-experiment a:hover,
+.codmw-series-old a:hover, .amongusbadtiming a:hover    {
+    color: white;
+}
+
+.robot-hunt{
+    position: relative;
+    top: -180px;
+    background-color: #707a5b;
+}
+
+.robot-hunt a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.a-twelve{
+    position: relative;
+    left: -450px;
+}
+
+.a-twelve a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.togueznake{
+    position: relative;
+    top: -385px;
+    left: 450px;
+}
+
+.togueznake a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.call-of-duty{
+    text-align: center;
+}
+
+.call-of-duty, .codmw-series-old{
+    position:relative;
+    background-color: #68bf6c;
+    text-align: center;
+}
+
+.codmw-series-old pre{
+    text-align: center;
+}
+
+.codmw-series-old a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+    color:#1f2937;
+}
+
+.codmwr{
+    position: relative;
+    left: -400px;
+}
+
+.codmwr a{
+    margin-left: 0px;
+}
+
+.codmw2cr{
+    position: relative;
+    right: -500px;
+}
+
+.codmw2cr a{
+    margin-right: 0px;
+}
+
+.codmw3{
+    position: relative;
+    left: -400px;
+}
+
+.codmw3 a{
+    margin-left: 0;
+}
+
+.call-of-duty-experiment{
+    background-color: #ffdc3e;
+}
+
+.call-of-duty-experiment pre{
+    text-align: center;
+}
+
+.call-of-duty-experiment a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+    margin-left: 0px;
+    color:#1f2937;
+}
+
+.codiframe{
+    position: relative;
+    left: 0px;
+}
+
+.amogus{
+    background-color: #e42121;
+}
+
+.amongusisded pre, h1{
+    text-align: center;
+}
+
+.amongusbadtiming{
+    position: relative;
+    left: 200px;
+    
+}
+
+.amongusbadtiming a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+    color: #1f2937;
+}
+
+.roblox h1, pre{
+    text-align:center;
+}
+
+.full-boblox{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap : 16px;
+}
+
+.full-boblox a{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.full-boblox pre{
+    position: relative;
+    justify-content: space-between;
+    top: -380px;
+    left: 850px;
+}
+
+.roblox-games-w-content{
+    position: relative;
+    top: 850px;
+}
+
+.roblox-games-w-content{
+    margin:0;
+    padding: 3%;
+    height: auto;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.roblox-games-w-content a{
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
+
+.roblox-games-w-content h2{
+    position: relative;
+    top: -60px;
+    text-align:center;
+}
+
+.roblox-games-w-content >p{
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.Arsenal, .rivals{
+    display: flex !important;
+    flex-direction: column;
+}
+
+.Arsenal{
+    position: relative;
+    left: 100px;
+}
+
+.rivals{
+    position: relative;
+    top: -340px;
+    left: 1000px;
+}
+
+.waterpark p{
+    position: relative;
+    text-align: center;
+}
+
+.waterpark-playlist{
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    position:relative;
+    left: 550px;
+}
+
+.mm2{
+    position: relative;
+    text-align: center;
+}
+
+.mm2nofunny a, .mm2funnymoments a{
+    display: flex !important;
+    flex-direction: column;
+}
+
+.mm2nofunny{
+    position:relative;
+    left: -500px;
+}
+
+.mm2funnymoments{
+    position: relative;
+    top: -340px;
+    left: 500px;
+}
