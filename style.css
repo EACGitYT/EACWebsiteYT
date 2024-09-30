@@ -2,6 +2,7 @@
 
 *{
     font-family: Roboto;
+    transition: all 1s ease;
   }
   
   pre, p{
