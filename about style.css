@@ -14,7 +14,7 @@ header{
   background-color: #3ff42f;
 }
 
-.header-nav a:hover{
+.header-nav a:hover, .call-of-duty-text a:hover, .roblox-text a:hover, .stumble-guys-tezt a:hover{
   border-color: #1f2937;
   background: #1f2937;
   color: #fff;
