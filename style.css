@@ -17,6 +17,7 @@
   .header-nav a:hover,
   .eacsocialmedia a:hover,
   .contents a:hover{
+    transitions: all 1s ease;
     border-color: #1f2937;
     background: #1f2937;
     color: #fff;
