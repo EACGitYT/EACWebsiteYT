@@ -2,7 +2,6 @@
 
 *{
     font-family: Roboto;
-    transition: all 1s ease;
   }
   
   pre, p{
@@ -17,7 +16,6 @@
   .header-nav a:hover,
   .eacsocialmedia a:hover,
   .contents a:hover{
-    transition: all 1s ease;
     border-color: #1f2937;
     background: #1f2937;
     color: #fff;
@@ -74,7 +72,6 @@
 
   .eacwelcome, .eacmain{
     width: 50%;
-
   }
   
   .eacwelcome > img{
@@ -119,7 +116,7 @@
   .contents{
     margin:0;
     padding: 3%;
-    height: 35vh;
+    height: auto;
     background-color: rgb(46, 46, 46);
     color: #fff;
     font-size: 14px;
@@ -137,6 +134,12 @@
     margin-right: 120px;
   }
 
+.content_item iframe{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
   .slick-slider{
     display: flex !important;
     align-items: center;
@@ -151,7 +154,64 @@
     text-align: center;
   }
 
+  @media (min-width: 1080px) {
 
+    .header-menu a {
+        font-size: 28px;
+    }
+
+    .image-logo a {
+        font-size: 28px;
+    }
+
+    .main {
+        padding: 120px 40px;
+        gap: 60px;
+    }
+
+    .eacwelcome h2 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+    .eacmain h3 p{
+      font-size: 56px ;
+      line-height: 70px;
+    }
+
+    .eacsocialmedia {
+        right: 50px;
+        top: 15%;
+    }
+
+    .eacsocialmedia a {
+        width: 30%;
+        height: 25%;
+    }
+
+    .contents {
+        padding: 5%;
+        height: 50vh;
+        font-size: 16px;
+    }
+
+    .content_item {
+        margin-right: 150px;
+    }
+
+    .contents h1 {
+        font-size: 32px;
+    }
+
+    .contents > h2 {
+        font-size: 24px;
+    }
+
+    .content_item iframe {
+      width: 360px; /* Original width */
+      height: 215px; /* Original height */
+  }
+}
 
 
 
